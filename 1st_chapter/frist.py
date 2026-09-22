@@ -6,4 +6,9 @@ print(
 "I'll write code every single day" \
 "I'll learn python every single day"
 
+
 )
+
+print("let's do it, It's now or never")
+
+name = input("What's you'r name? ")

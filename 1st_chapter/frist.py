@@ -1,5 +1,9 @@
+print("your name ")
+
 #Ask use for their name
-name = input("What's your name? ")
+#name = input("What's your name? ")
 
 #say hello to user
-print("Hello,", name, sep= " ???")
+#print("Hello,", name, sep= " ???")
+
+

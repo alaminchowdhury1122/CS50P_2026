@@ -12,3 +12,6 @@
 name = input("What's your name? ")
 
 print(f"hello, {name}")
+
+age = input("enter your age")
+print("you're", age,  "year old")

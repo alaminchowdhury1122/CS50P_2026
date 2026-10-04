@@ -22,9 +22,13 @@
 # i don't know shold I think about it or not. 
 
 
-name = input("Enter your name: ")
+#name = input("Enter your name: ")
 
-age = input("Enter your age: ")
+#age = input("Enter your age: ")
 
-print("congras", name , "since you're", age, "so you're aligable")
+#print("congras", name , "since you're", age, "so you're aligable")
 
+
+name = input ("What's your name ? ")
+
+print(f"Hello, {name}")

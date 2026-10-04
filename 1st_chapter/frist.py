@@ -29,15 +29,10 @@
 #print("congras", name , "since you're", age, "so you're aligable")
 
 
-name = input ("What's your name ? ")
+name = input ("What's your name ? ").strip().title()
 
-#remove white space from string
-
-name = name.strip()
-
-#capitalize user's name 
-name = name.title()
-
+#split frist and last name
+#frist, last = name.split(" ")
 
 print(f"Hello, {name}")
 

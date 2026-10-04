@@ -31,4 +31,14 @@
 
 name = input ("What's your name ? ")
 
+#remove white space from string
+
+name = name.strip()
+
+#capitalize user's name 
+name = name.title()
+
+
 print(f"Hello, {name}")
+
+

@@ -4,7 +4,7 @@
 #z = int(x)+int(y)
 #print(z)
 
-x = int(input("What's X ?"))
-y = int(input("What's y ?"))
+x = float(input("What's X ?"))
+y = float(input("What's y ?"))
 
 print(x+y)

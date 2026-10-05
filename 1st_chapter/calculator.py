@@ -1,5 +1,10 @@
-x = 1
-y = 2
+#x = input("What's x? ")
+#y = input("What's y? ")
 
-z = x+y
-print(z)
+#z = int(x)+int(y)
+#print(z)
+
+x = int(input("What's X ?"))
+y = int(input("What's y ?"))
+
+print(x+y)

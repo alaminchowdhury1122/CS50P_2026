@@ -7,4 +7,6 @@
 x = float(input("What's X ?"))
 y = float(input("What's y ?"))
 
-print(x+y)
+z= round (x+y)
+
+print(f"{z:,}")

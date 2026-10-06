@@ -7,6 +7,12 @@
 x = float(input("What's X ?"))
 y = float(input("What's y ?"))
 
-z= round (x+y)
+z = x / y
 
-print(f"{z:,}")
+print(f"{z:.2f}")
+
+#round a number 
+#z= round (x+y)
+
+# :, use for seperator 
+#print(f"{z:,}")

@@ -6,9 +6,9 @@ if x < y:
     print("X is less than Y")
 
 
-if x>y:
+elif x>y:
     print("X is greater than Y")
 
-if x == y:
+elif x == y:
     print("x is equal to y")
     

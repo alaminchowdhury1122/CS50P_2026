@@ -1,4 +1,4 @@
-score = int(input("score:"))
+score = int(input("What's your Score: "))
 
 
 if score >= 80 and score <=100:
@@ -14,4 +14,5 @@ elif score >= 50 and score <=60:
     print("Grade: D+")
 
 else:
-    print("Grade F")
+    print("Grade F", "Try hard, you can do it")
+

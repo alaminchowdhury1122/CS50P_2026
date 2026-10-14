@@ -9,3 +9,6 @@ match name :
 
     case _:
         print("Who")
+
+# there's a lot of way to code in python
+# you can shlove a problem in many ways

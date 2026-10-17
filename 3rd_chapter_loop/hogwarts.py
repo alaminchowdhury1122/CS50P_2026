@@ -1,3 +1,4 @@
 students = ["Hermione", "Harry", "Ron"]
 
-print(students[0])
+for s in students:
+    print(s)

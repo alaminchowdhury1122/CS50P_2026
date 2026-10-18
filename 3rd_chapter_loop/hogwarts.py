@@ -1,4 +1,2 @@
-students = ["Hermione", "Harry", "Ron"]
-
-for i in range (len(students)):
-    print(students[i])
+students = ["Hermione", "Harry", "Ron", "Draco"]
+house = ["Gryfindor", "Gryfindor", "Gryfindor", "Slytherin"]

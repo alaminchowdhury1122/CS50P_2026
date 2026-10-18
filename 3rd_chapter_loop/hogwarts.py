@@ -1,2 +1,7 @@
-students = ["Hermione", "Harry", "Ron", "Draco"]
-house = ["Gryfindor", "Gryfindor", "Gryfindor", "Slytherin"]
+students = {"Hermoine": "Gryffindor",
+            "Harry": "Gryffindor", 
+            "Ron": "Gryffindor", 
+            "Darco": "Slytherin"
+            }
+
+print(students["Hermoine"])

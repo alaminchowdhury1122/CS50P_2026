@@ -1,11 +1,12 @@
-gf = {"Arohi": "Thakurgoan Hazir more",
-      "Jannat": "joduar",
-      "Sahara" : "Baliadangi",
-      "Nisha" : "poccimpara", 
-      "Eva" : "Thakurgoan BGB camp"
-      
-      
-      }
+students = [
+    {"name": "Hermione", "house": "Gryffindor", "partronus": "other"}, 
 
-for girlfriend in gf:
-    print(girlfriend, gf [girlfriend],sep=", ")
+    {"name": "Harry", "house": "Gryffindor", "partronus": "stag"}, 
+
+    {"name": "Ron", "house": "Gryffindor", "partrouns": "Jack Russel terier"}, 
+
+    {"name": "Draco", "house": "Slytherin", "parronus": "None"}
+
+
+
+]

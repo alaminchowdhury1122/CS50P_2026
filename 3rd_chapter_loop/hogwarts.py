@@ -1,7 +1,10 @@
-students = {"Hermoine": "Gryffindor",
-            "Harry": "Gryffindor", 
-            "Ron": "Gryffindor", 
-            "Darco": "Slytherin"
-            }
+gf = {"Arohi": "Thakurgoan Hazir more",
+      "Jannat": "joduar",
+      "Sahara" : "Baliadangi",
+      "Nisha" : "poccimpara", 
+      "Eva" : "Thakurgoan BGB camp"
+      
+      
+      }
 
-print(students["Hermoine"])
+print(gf["Arohi"])

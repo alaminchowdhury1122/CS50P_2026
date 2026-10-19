@@ -7,4 +7,5 @@ gf = {"Arohi": "Thakurgoan Hazir more",
       
       }
 
-print(gf["Arohi"])
+for girlfriend in gf:
+    print(girlfriend, gf [girlfriend],sep=", ")

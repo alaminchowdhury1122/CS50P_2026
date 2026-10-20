@@ -1,10 +1,10 @@
-def main():
-    print_row(4)
+def main ():
+    print_squre(3)
 
+def print_squre(size):
+    for i in range(size):
+        for j in range(size):
+            print("#", end="")
+        print()
 
-def print_row (width):
-    print("?" * width)
-
-
-
-main ()
+main()

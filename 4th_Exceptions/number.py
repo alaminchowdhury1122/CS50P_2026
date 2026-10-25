@@ -1,14 +1,14 @@
-while True:
-
-    try: 
-
-        x = int(input("what's x? "))
-        break
-    except ValueError:
-        print("x is not an integer")
-
-
-print(f"x is {x}")
+#while True:
+#
+#    try: 
+#
+#        x = int(input("what's x? "))
+#        break
+#    except ValueError:
+#        print("x is not an integer")
+#
+#
+#print(f"x is {x}")
 
 #there's no one who's mine in this world, 
 # I came alone 
@@ -21,3 +21,16 @@ print(f"x is {x}")
 # But amr kichu hya gla amr abbu ammur ki hoba, k dakba odar k, kaka nia bachba ora? 
 # ordar o to kaw nai ami chara, 
 # I have to do it at any way, I can't lose. I have to win. 
+
+
+
+while True: 
+
+    try: 
+        x = int(input("What's X? "))
+        break
+
+    except ValueError:
+        print("X is not an integer")
+
+print(f"x is {x}")

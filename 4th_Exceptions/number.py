@@ -24,13 +24,23 @@
 
 
 
-while True: 
 
-    try: 
-        x = int(input("What's X? "))
-        break
+def main():
+    x = get_int()
+    print(f"X is {x}")
 
-    except ValueError:
-        print("X is not an integer")
+def get_int():
 
-print(f"x is {x}")
+    while True: 
+        try:
+            x = int(input("what's X? "))
+        except ValueError:
+            print("X is not an integer")
+
+        else:
+            break
+
+    return x
+
+
+main()

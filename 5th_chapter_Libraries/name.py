@@ -1,5 +1,4 @@
-import sys
-
+#import sys
 #try:
 #
 #    print("hello, my name is" ,  sys.argv[1])
@@ -7,11 +6,16 @@ import sys
 #except IndexError:
 #    print("Too few arguments")
 
+
+#check for eroors
+
+import sys
+
 if len(sys.argv) <2:
-    print("too few arguments")
+    sys.exit("too few arguments")
 
 elif len(sys.argv) > 2: 
-    print("too many arguments")
+    sys.exit("too many arguments")
 
-else: 
-    print("hello my name is", sys.argv[1])
+#print name tags
+print("hello my name is", sys.argv[1])

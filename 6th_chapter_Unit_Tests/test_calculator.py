@@ -5,12 +5,16 @@ def main():
     test_square()
 
 def test_square():
-    if square(2) != 4:
-        print("2 square was not 4")
+    assert square(2) ==4
+    assert square(9) ==9
 
-    if square (3) != 9:
-        print("3 squre was not 9")
+#def test_square():
+#    if square(2) != 4:
+#        print("2 square was not 4")
+#
+#    if square (3) != 9:
+#        print("3 squre was not 9")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__)":
     main()

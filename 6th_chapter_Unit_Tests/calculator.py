@@ -17,6 +17,8 @@ def main ():
     print("X square is ", square(x))
 
 def square(n):
-    return n *n 
+    return n + n 
 
-main()
+
+if __name__ == "__main__":
+    main()

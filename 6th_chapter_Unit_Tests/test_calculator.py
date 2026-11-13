@@ -16,5 +16,5 @@ def test_square():
 #        print("3 squre was not 9")
 
 
-if __name__ == "__main__)":
+if __name__ == "__main__":
     main()

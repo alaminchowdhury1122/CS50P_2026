@@ -23,24 +23,24 @@
 
 # praticeing again 
 
-from calculator import square
-
-def main():
-    test_suqare()
-
-
-def test_suqare():
-
-    try: 
-        assert square (2) == 4
-    except AssertionError: 
-        print("2 square was not 4")
-
-    try:
-
-        assert square (3) == 9
-    except AssertionError:
-        print("3 square was not 9")
+#from calculator import square
+#
+#def main():
+#    test_suqare()
+#
+#
+#def test_suqare():
+#
+#    try: 
+#        assert square (2) == 4
+#    except AssertionError: 
+#        print("2 square was not 4")
+#
+#    try:
+#
+#        assert square (3) == 9
+#    except AssertionError:
+#        print("3 square was not 9")
 
     
     #if square (2)  != 4:
@@ -51,5 +51,16 @@ def test_suqare():
  
 
 
-if __name__== "__main__":
-    main()
+#if __name__== "__main__":
+#    main()
+
+
+from calculator import square
+
+def test_square():
+    assert square (2) == 4
+    assert square (3) == 9 
+    assert square (-2) == 4
+    assert square (-3) == 9
+    assert square (0) == 0
+    

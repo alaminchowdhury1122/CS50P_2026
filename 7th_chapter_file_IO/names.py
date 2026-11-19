@@ -18,9 +18,27 @@
 
 # read the existing file 
 
-with open ("store_name.txt", "r") as file:
-    lines = file.readlines()
+#with open ("store_name.txt", "r") as file:
+#    lines = file.readlines()
+#
+#
+#for i in lines:
+#    print("hello,", i)
+
+# better version to read existing text
 
 
-for i in lines:
-    print("hello,", i)
+#with open("store_name.txt", "r") as file:
+#    for line in file:
+#        print("hello", line.rstrip())
+#
+
+name = []
+
+with open ("store_name.txt") as file: 
+    for line in file:
+        name.append(line.rstrip())
+
+
+for i in sorted(name):
+    print(f"hello, {i}")

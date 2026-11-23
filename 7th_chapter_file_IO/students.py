@@ -11,11 +11,18 @@ students = []
 with open ("students.csv") as file: 
     for line in file:
         name, house = line.rstrip() .split(", ")
-        student= {}
-        student["name"] = name
-        student["house"] = house
+        student= {"name": name, "house": house}
+
+        #student["name"] = name
+        #student["house"] = house
         students.append(student)
 
 
-for student in students:
+def get_name (studnet):
+    return student["name"]
+
+
+
+
+for student in sorted(students, key= get_name):
     print(f"{student['name']} is in {student['house']}")

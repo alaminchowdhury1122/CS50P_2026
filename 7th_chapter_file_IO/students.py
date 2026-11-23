@@ -31,14 +31,31 @@
 #useing lamda instant of calling a function for once. 
 
 
-students =[]
-with open ("students.csv") as file: 
-    for line in file:
-        name, house = line.rstrip().split(",")
-        student = {"name": name, "house": house}
-        students.append(student)
+#students =[]
+#with open ("students.csv") as file: 
+#    for line in file:
+#        name, house = line.rstrip().split(", ")
+#        student = {"name": name, "house": house}
+#        students.append(student)
+#
+#
+#
+#for student in sorted(students, key=lambda student: student["name"]):
+#    print(f"{student['name']}, from {student['house']}")
 
+
+# useing csv libarary
+
+
+import csv
+
+students = []
+
+with open("students.csv") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        students.append({"name": row[0], "house": row[1]})
 
 
 for student in sorted(students, key=lambda student: student["name"]):
-    print(f"{student['name']}, from {student['house']}")
+    print(f"{student['name']}, is from {student['house']}")

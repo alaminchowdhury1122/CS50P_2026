@@ -10,13 +10,17 @@
 #else:
 #    print("Invalid")
 
-email = input("what's your name? ").strip()
+#email = input("what's your name? ").strip()
+#
+#username, domain = email.split("@")
+#
+#
+#if username and "." in domain:
+#    print("Valid")
+#
+#else:
+#    print("Invalid")
 
-username, domain = email.split("@")
 
+# starting the day with re. 
 
-if username and "." in domain:
-    print("Valid")
-
-else:
-    print("Invalid")
